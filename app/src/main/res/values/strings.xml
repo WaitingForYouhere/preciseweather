@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Precise Weather</string>
+    <string name="app_name">天气预报</string>
+    <string name="take_umberlaler">雨兮兮，路漫漫，出门请带伞。</string>
+    <string name="clothe">清晨的凉意需要件厚实的外套来抵御萧瑟哦！</string>
+    <string name="define_shining">大胆的迈开腿吧，防晒霜，遮阳帽统统扔掉。</string>
+
 </resources>

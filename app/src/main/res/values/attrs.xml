@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="NowWeatherView">
+        <attr name="width" format="integer"></attr>
+        <attr name="heith" format="integer"></attr>
+        <attr name="tempnow" format="integer"></attr>
+        <attr name="mintemp" format="integer"></attr>
+        <attr name="maxtemp" format="integer"></attr>
+        <attr name="textcolor" format="color"></attr>
+        <attr name="shortLinecolor" format="color"></attr>
+        <attr name="bitmapsrc" format="reference"></attr>
+        <attr name="textsize" format="dimension"></attr>
+    </declare-styleable>
+</resources>

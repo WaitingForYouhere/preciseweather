@@ -178,6 +178,10 @@ public class SecondWeatherActivity extends Activity implements View.OnClickListe
         param2.height = screemheight * 11/ 100;
         param3.height = screemheight * 11/ 100;
         paramButton.height = screemheight * 8 / 100;
+        RelativeLayout.LayoutParams param4=(RelativeLayout.LayoutParams)mNowWeather.getLayoutParams();
+        param4.height=screemheight * 50/ 100;
+        param4.width=screemheight * 30/ 100;
+
 
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(this);
         String countyCode = prefs.getString("county_code", "");
@@ -188,8 +192,7 @@ public class SecondWeatherActivity extends Activity implements View.OnClickListe
         editor.commit();
         Log.e("ming", name);
         if (!TextUtils.isEmpty(name)) {
-//            loading.setText("同步中...");
-//            scrolllayout.setVisibility(View.INVISIBLE);
+
             queryWeatherCode(countyCode, name);
         } else {
             showWeather();
